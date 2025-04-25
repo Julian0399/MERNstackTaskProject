@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <img src="https://www.gravatar.com/avatar/94d093eda664addd6e450d7e98b8d08b?s=200&r=pg&d=mm" alt="avatar">
+        <h2 class="color-primary">{{subject}}</h2>
+        <hr/>
+        <p>Hello
+            {{name}},
+        </p>
+        <p>Please use the link below to verify your account <br/> this link is valid for 24 hours</p>
+        <a href="{{link}}" class="btn-link"> verify Account</a>
+        <p style="margin-bottom:50px">
+            if you did not request this, please ignore this email.
+        </p>
+        <hr/>
+        <p>Regards,</p>
+        <p><b>Auth Kit</b>Team</p>
+        <div>
+            {{link}}
+        </div>
+    </div>
+</body>
+</html>
